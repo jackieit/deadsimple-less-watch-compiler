@@ -142,7 +142,7 @@ define(function (require) {
       var formatted = path.format({
         dir: dirname,
         name: filename,
-        ext: (lessWatchCompilerUtilsModule.config.minified ? '.min' : '') + '.css',
+        ext: (lessWatchCompilerUtilsModule.config.minified ? '.min' : '') + '.wxss',
       });
 
       // No matter the path of the main file, the output must always land in the output folder
