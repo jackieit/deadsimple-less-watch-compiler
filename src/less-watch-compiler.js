@@ -145,7 +145,7 @@ function init(){
         for (var i in fileimportlist){
           for (var k in fileimportlist[i]){
             var hasExtension = path.extname(fileimportlist[i][k]).length > 1;
-            var importFile = path.join(fileimportlist[i][k], (hasExtension ? '' : '.less'));
+            var importFile = path.join(fileimportlist[i][k], (hasExtension ? '' : '.lesswx'));
             var normalizedPath = path.normalize(path.dirname(i) + path.sep + importFile);
 
             // console.log('compare ' + f + ' with import #' + k + ' in ' + i + ' value ' + normalized);
